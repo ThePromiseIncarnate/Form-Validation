@@ -5,10 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
 </head>
 
 <body>
+    <form action="index.html">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" minlength="5">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" required name="password" id="password" minlength="5">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" required name="email" id="email">
+        <input type="submit" value="Click">
+    </form>
 
+    <form action="index.html">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="test" name="firstName" id="firstName">
+            <div>
+                <p id="marryEarly">You will marry soon!</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </form>
 </body>
 
 </html>
